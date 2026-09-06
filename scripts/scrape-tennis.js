@@ -1,1 +1,1 @@
-export async function getTennisEvents(){return []} // ATP -> TennisTV
+export async function getTennisEvents(){return []}

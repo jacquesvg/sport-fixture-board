@@ -1,1 +1,1 @@
-export async function loadData(){const r=await fetch('data/schedules.json?v='+Date.now());return await r.json();}
+export async function loadData(){const r=await fetch('data/schedules.json?v='+Date.now());return r.json();}

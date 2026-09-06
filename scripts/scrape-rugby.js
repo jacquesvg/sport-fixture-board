@@ -1,1 +1,1 @@
-export async function getRugbyEvents(){return []} // World Rugby -> Sky Sports
+export async function getRugbyEvents(){return []}

@@ -1,2 +1,2 @@
-# Fixture Board V3
-Automated sports dashboard foundation.
+# Fixture Board V4
+Enhanced UI, filtering and automation foundation.

@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-09-06T10:00:00Z",
+  "generatedAt": "2026-09-06T10:30:00Z",
   "status": "live",
-  "version": "3",
-  "sources": {
-    "f1": {
-      "source": "formula1.com",
-      "fallback": false
-    },
-    "tennis": {
-      "source": "atptour.com",
-      "fallback": false
-    },
-    "rugby": {
-      "source": "world.rugby",
-      "fallback": false
-    }
-  },
+  "version": "4",
   "sports": {
     "f1": [
       {
@@ -25,14 +11,6 @@
         "location": "Monza",
         "datetime": "2026-09-06T13:00:00Z",
         "description": "53 laps around Monza."
-      },
-      {
-        "sport": "f1",
-        "title": "Practice 1",
-        "competition": "Spanish Grand Prix",
-        "location": "Madrid",
-        "datetime": "2026-09-11T11:30:00Z",
-        "description": "Track familiarisation session."
       }
     ],
     "tennis": [

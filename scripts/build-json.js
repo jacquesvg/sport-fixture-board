@@ -1,1 +1,1 @@
-console.log('Build JSON placeholder for V4 real scraping')
+console.log("V4 build pipeline placeholder")
