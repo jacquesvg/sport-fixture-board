@@ -1,1 +1,1 @@
-// primary: formula1.com failover: motorsport.com
+export async function getF1Events(){return []} // formula1.com -> motorsport.com

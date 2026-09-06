@@ -1,1 +1,1 @@
-// build schedules.json from scrapers
+console.log('Build JSON placeholder for V4 real scraping')

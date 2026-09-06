@@ -1,1 +1,1 @@
-# JSON Schema
+# V3 schema with source metadata and status support

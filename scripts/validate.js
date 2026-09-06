@@ -1,0 +1,1 @@
+export const valid=e=>e.title&&e.datetime&&e.sport&&e.description;

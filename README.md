@@ -1,1 +1,2 @@
-# Fixture Board v2
+# Fixture Board V3
+Automated sports dashboard foundation.

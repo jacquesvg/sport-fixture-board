@@ -1,0 +1,1 @@
+export async function trySources(primary,fallback){try{return await primary()}catch{return await fallback()}}

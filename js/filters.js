@@ -1,0 +1,1 @@
+export function filterEvents(events,view){const now=new Date();if(view==='today'){return events.filter(e=>new Date(e.datetime).toDateString()===now.toDateString())}const week=new Date();week.setDate(now.getDate()+7);return events.filter(e=>new Date(e.datetime)<=week)}

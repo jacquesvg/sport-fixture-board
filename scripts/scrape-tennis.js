@@ -1,1 +1,1 @@
-// primary: atptour.com failover: tennistv.com
+export async function getTennisEvents(){return []} // ATP -> TennisTV

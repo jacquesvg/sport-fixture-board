@@ -1,1 +1,1 @@
-// primary: world.rugby failover: skysports.com
+export async function getRugbyEvents(){return []} // World Rugby -> Sky Sports

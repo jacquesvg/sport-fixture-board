@@ -1,1 +1,1 @@
-export const load=()=>JSON.parse(localStorage.getItem('fixtureBoard')||'{"sport":"all","view":"today"}'); export const save=(d)=>localStorage.setItem('fixtureBoard',JSON.stringify(d));
+export const load=()=>JSON.parse(localStorage.getItem('fixtureBoard')||'{"sport":"all","view":"today"}');export const save=(p)=>localStorage.setItem('fixtureBoard',JSON.stringify(p));

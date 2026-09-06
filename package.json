@@ -1,0 +1,9 @@
+{
+  "name": "fixture-board",
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-json.js",
+    "update": "node scripts/build-json.js"
+  }
+}
