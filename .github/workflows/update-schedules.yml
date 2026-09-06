@@ -1,0 +1,5 @@
+name: Update Schedules
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4,16 * * *"

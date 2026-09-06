@@ -1,0 +1,1 @@
+// primary: formula1.com failover: motorsport.com

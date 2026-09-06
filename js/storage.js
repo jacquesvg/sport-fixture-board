@@ -1,2 +1,1 @@
-export function loadPreferences(){return JSON.parse(localStorage.getItem('fixtureBoard')||'{"sport":"f1","view":"today"}');}
-export function savePreferences(d){localStorage.setItem('fixtureBoard',JSON.stringify(d));}
+export const load=()=>JSON.parse(localStorage.getItem('fixtureBoard')||'{"sport":"all","view":"today"}'); export const save=(d)=>localStorage.setItem('fixtureBoard',JSON.stringify(d));
