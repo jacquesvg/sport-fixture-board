@@ -1,0 +1,1 @@
+V6 introduces scraper orchestration, cache model, workflow structure and source failover architecture.

@@ -1,2 +1,2 @@
-# Fixture Board V5
-First production-ready foundation with source metadata, cache support, favourites and scraper framework.
+# Fixture Board V6
+Automation-focused release with scraper pipeline architecture, cache support, logging structure and source failover framework.

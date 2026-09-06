@@ -1,1 +1,1 @@
-export async function trySources(primary,fallback){try{return await primary()}catch{return await fallback()}}
+export async function trySources(primary,fallback){try{return await primary()}catch(e){console.log(`Primary failed: ${e.message}`);return await fallback();}}

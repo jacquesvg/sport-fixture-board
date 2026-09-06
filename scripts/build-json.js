@@ -1,1 +1,3 @@
-console.log("V5 build pipeline ready for real scraper implementation")
+import fs from "fs";
+console.log("Fixture Board V6 pipeline starting");
+console.log("Future implementation: run all scrapers, validate events, write schedules.json, commit via GitHub Action.");

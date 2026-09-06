@@ -1,1 +1,4 @@
-export async function primaryTennis(){} export async function fallbackTennis(){}
+// PRIMARY: atptour.com
+// FAILOVER: tennistv.com
+export async function primaryTennis(){return [];}
+export async function fallbackTennis(){return [];}

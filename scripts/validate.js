@@ -1,1 +1,1 @@
-export const valid=e=>e.title&&e.datetime&&e.sport&&e.description;
+export function valid(event){return event?.title && event?.datetime && event?.sport;}
