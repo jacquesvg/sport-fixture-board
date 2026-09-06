@@ -1,0 +1,1 @@
+export async function getSchedules(){const r=await fetch('./data/schedules.json');return await r.json();}

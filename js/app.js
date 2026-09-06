@@ -1,0 +1,4 @@
+import { getSchedules } from "./data.js";
+async function init(){document.getElementById("timezone").textContent=Intl.DateTimeFormat().resolvedOptions().timeZone;const data=await getSchedules();document.getElementById("status").textContent=data.status;renderEvents(data.sports.f1);} 
+function renderEvents(events){const c=document.getElementById("events");c.innerHTML='';events.forEach(event=>{const d=new Date(event.datetime);c.innerHTML+=`<div class="event-card"><div class="event-time"><h2>${d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</h2><span>${Intl.DateTimeFormat().resolvedOptions().timeZone}</span></div><div><h4>${event.title}</h4><div>${event.competition} · ${event.location}</div><p>${event.description}</p></div></div>`})}
+document.addEventListener('DOMContentLoaded',init);
