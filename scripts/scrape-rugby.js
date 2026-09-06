@@ -1,1 +1,1 @@
-export async function getRugbyEvents(){return []}
+export async function primaryRugby(){} export async function fallbackRugby(){}

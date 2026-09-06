@@ -1,5 +1,6 @@
-name: Update
+name: Update Schedules
 on:
  workflow_dispatch:
  schedule:
-  - cron: "0 4,16 * * *"
+  - cron: "0 4 * * *"
+  - cron: "0 16 * * *"

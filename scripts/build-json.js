@@ -1,1 +1,1 @@
-console.log("V4 build pipeline placeholder")
+console.log("V5 build pipeline ready for real scraper implementation")

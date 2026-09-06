@@ -1,1 +1,1 @@
-export async function getTennisEvents(){return []}
+export async function primaryTennis(){} export async function fallbackTennis(){}

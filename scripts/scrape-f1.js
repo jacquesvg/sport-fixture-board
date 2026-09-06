@@ -1,1 +1,1 @@
-export async function getF1Events(){return []}
+export async function primaryF1(){} export async function fallbackF1(){}
