@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T12:43:38.497Z",
+  "generatedAt": "2026-09-12T12:50:33.580Z",
   "status": "live",
-  "version": "7.1",
+  "version": "7.2",
   "sources": {
     "f1": {
       "source": "gemini"
@@ -16,117 +16,98 @@
   "sports": {
     "f1": [
       {
-        "id": "f1-2026-azerbaijan-fp1",
+        "id": "f1-2026-azerbaijan-race",
         "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Free Practice 1",
+        "title": "Azerbaijan Grand Prix - Race",
         "competition": "Formula 1 World Championship 2026",
         "location": "Baku City Circuit, Baku, Azerbaijan",
+        "datetime": "2026-09-13T11:00:00Z",
+        "description": "Main race for the 2026 Azerbaijan Grand Prix."
+      },
+      {
+        "id": "f1-2026-singapore-fp1",
+        "sport": "f1",
+        "title": "Singapore Grand Prix - Practice 1",
+        "competition": "Formula 1 World Championship 2026",
+        "location": "Marina Bay Street Circuit, Singapore",
         "datetime": "2026-09-18T09:30:00Z",
-        "description": "First free practice session for the 2026 Azerbaijan Grand Prix."
+        "description": "First free practice session for the 2026 Singapore Grand Prix."
       },
       {
-        "id": "f1-2026-azerbaijan-fp2",
+        "id": "f1-2026-singapore-fp2",
         "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Free Practice 2",
+        "title": "Singapore Grand Prix - Practice 2",
         "competition": "Formula 1 World Championship 2026",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
+        "location": "Marina Bay Street Circuit, Singapore",
         "datetime": "2026-09-18T13:00:00Z",
-        "description": "Second free practice session for the 2026 Azerbaijan Grand Prix."
+        "description": "Second free practice session for the 2026 Singapore Grand Prix."
       },
       {
-        "id": "f1-2026-azerbaijan-fp3",
+        "id": "f1-2026-singapore-fp3",
         "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Free Practice 3",
+        "title": "Singapore Grand Prix - Practice 3",
         "competition": "Formula 1 World Championship 2026",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-19T08:30:00Z",
-        "description": "Third free practice session for the 2026 Azerbaijan Grand Prix."
+        "location": "Marina Bay Street Circuit, Singapore",
+        "datetime": "2026-09-19T09:30:00Z",
+        "description": "Third free practice session for the 2026 Singapore Grand Prix."
       }
     ],
     "tennis": [
       {
-        "id": "tennis_atp_miami_01",
+        "id": "tennis-us-open-2026-mens-final",
         "sport": "tennis",
-        "title": "Miami Open - Men's Singles Final",
-        "competition": "ATP Masters 1000",
-        "location": "Miami, Florida, USA",
-        "datetime": "2026-03-29T19:00:00Z",
-        "description": "The final round match of the Miami Open men's singles main draw at Hard Rock Stadium."
+        "title": "US Open - Men's Singles Final",
+        "competition": "Grand Slam",
+        "location": "New York, USA",
+        "datetime": "2026-09-13T20:00:00Z",
+        "description": "The culmination of the 2026 US Open championship at Arthur Ashe Stadium."
       },
       {
-        "id": "tennis_wta_charleston_01",
+        "id": "wta-guadalajara-open-2026",
         "sport": "tennis",
-        "title": "Credit One Charleston Open - Main Draw Day 1",
+        "title": "Guadalajara Open Akron",
         "competition": "WTA 500",
-        "location": "Charleston, South Carolina, USA",
-        "datetime": "2026-03-30T15:00:00Z",
-        "description": "First round matches kicking off the WTA green clay season at the Credit One Stadium."
+        "location": "Guadalajara, Mexico",
+        "datetime": "2026-09-14T16:00:00Z",
+        "description": "WTA 500 hard-court tournament taking place at the Panamerican Tennis Center."
       },
       {
-        "id": "tennis_atp_houston_01",
+        "id": "wta-jasmin-open-2026",
         "sport": "tennis",
-        "title": "U.S. Men's Clay Court Championship - First Round",
-        "competition": "ATP 250",
-        "location": "Houston, Texas, USA",
-        "datetime": "2026-03-31T17:00:00Z",
-        "description": "Opening round of the historic U.S. Men's Clay Court Championship at River Oaks Country Club."
-      },
-      {
-        "id": "tennis_wta_bogota_01",
-        "sport": "tennis",
-        "title": "Copa Colsanitas Zurich - First Round",
+        "title": "Jasmin Open Tunisia",
         "competition": "WTA 250",
-        "location": "Bogota, Colombia",
-        "datetime": "2026-04-01T16:00:00Z",
-        "description": "Main draw action from the clay courts of the Country Club de Bogota."
+        "location": "Monastir, Tunisia",
+        "datetime": "2026-09-14T10:00:00Z",
+        "description": "WTA 250 hard-court tournament held at the Tennis Club de Monastir."
       },
       {
-        "id": "tennis_atp_marrakech_01",
+        "id": "tennis-davis-cup-group-stage-2026",
         "sport": "tennis",
-        "title": "Grand Prix Hassan II - Second Round",
+        "title": "Davis Cup Finals - Group Stage",
+        "competition": "Davis Cup",
+        "location": "Bologna, Valencia, Zhuhai, Manchester",
+        "datetime": "2026-09-15T09:00:00Z",
+        "description": "International men's team competition group stage matches held across four host cities."
+      },
+      {
+        "id": "atp-chengdu-open-2026",
+        "sport": "tennis",
+        "title": "Chengdu Open",
         "competition": "ATP 250",
-        "location": "Marrakech, Morocco",
-        "datetime": "2026-04-02T11:00:00Z",
-        "description": "Second round singles action at the Royal Tennis Club de Marrakech."
+        "location": "Chengdu, China",
+        "datetime": "2026-09-16T05:00:00Z",
+        "description": "ATP 250 hard-court tournament held at the Sichuan International Tennis Center."
+      },
+      {
+        "id": "atp-hangzhou-open-2026",
+        "sport": "tennis",
+        "title": "Hangzhou Open",
+        "competition": "ATP 250",
+        "location": "Hangzhou, China",
+        "datetime": "2026-09-16T05:00:00Z",
+        "description": "ATP 250 hard-court tournament taking place at the Hangzhou Olympic Sports Center."
       }
     ],
-    "rugby": [
-      {
-        "id": "rugby-intl-2026-001",
-        "sport": "rugby",
-        "title": "Ireland vs France",
-        "competition": "Six Nations Championship",
-        "location": "Aviva Stadium, Dublin, Ireland",
-        "datetime": "2026-03-14T15:00:00Z",
-        "description": "Six Nations International Rugby Union match between Ireland and France."
-      },
-      {
-        "id": "rugby-intl-2026-002",
-        "sport": "rugby",
-        "title": "England vs Wales",
-        "competition": "Six Nations Championship",
-        "location": "Twickenham Stadium, London, England",
-        "datetime": "2026-03-14T17:30:00Z",
-        "description": "Six Nations International Rugby Union match between England and Wales."
-      },
-      {
-        "id": "rugby-intl-2026-003",
-        "sport": "rugby",
-        "title": "Scotland vs Italy",
-        "competition": "Six Nations Championship",
-        "location": "Murrayfield Stadium, Edinburgh, Scotland",
-        "datetime": "2026-03-15T15:00:00Z",
-        "description": "Six Nations International Rugby Union match between Scotland and Italy."
-      },
-      {
-        "id": "rugby-intl-2026-004",
-        "sport": "rugby",
-        "title": "Georgia vs Spain",
-        "competition": "Rugby Europe Championship",
-        "location": "Avchala Stadium, Tbilisi, Georgia",
-        "datetime": "2026-03-15T12:00:00Z",
-        "description": "Rugby Europe Championship International fixture between Georgia and Spain."
-      }
-    ]
+    "rugby": []
   }
 }
