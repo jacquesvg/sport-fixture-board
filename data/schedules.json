@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T13:34:37.287Z",
-  "status": "live",
+  "generatedAt": "2026-09-12T13:39:08.311Z",
+  "status": "partial",
   "version": "7.2",
   "sources": {
     "f1": {
@@ -13,101 +13,6 @@
       "source": "gemini"
     }
   },
-  "sports": {
-    "f1": [
-      {
-        "id": "f1-2026-azerbaijan-fp1",
-        "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Practice 1",
-        "competition": "Formula 1 World Championship",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-18T09:30:00Z",
-        "description": "Formula 1 Azerbaijan Grand Prix 2026 - Practice 1 session."
-      },
-      {
-        "id": "f1-2026-azerbaijan-fp2",
-        "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Practice 2",
-        "competition": "Formula 1 World Championship",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-18T13:00:00Z",
-        "description": "Formula 1 Azerbaijan Grand Prix 2026 - Practice 2 session."
-      },
-      {
-        "id": "f1-2026-azerbaijan-fp3",
-        "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Practice 3",
-        "competition": "Formula 1 World Championship",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-19T08:30:00Z",
-        "description": "Formula 1 Azerbaijan Grand Prix 2026 - Practice 3 session."
-      },
-      {
-        "id": "f1-2026-azerbaijan-qualifying",
-        "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Qualifying",
-        "competition": "Formula 1 World Championship",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-19T12:00:00Z",
-        "description": "Formula 1 Azerbaijan Grand Prix 2026 - Qualifying session."
-      }
-    ],
-    "tennis": [
-      {
-        "id": "us-open-2026-mens-final",
-        "sport": "tennis",
-        "title": "US Open Men's Singles Final",
-        "competition": "Grand Slam",
-        "location": "Arthur Ashe Stadium, New York, USA",
-        "datetime": "2026-09-13T20:00:00Z",
-        "description": "The final match of the 2026 US Open Men's Singles tournament."
-      },
-      {
-        "id": "wta-guadalajara-2026-r1",
-        "sport": "tennis",
-        "title": "Guadalajara Open - First Round",
-        "competition": "WTA 500",
-        "location": "Guadalajara, Mexico",
-        "datetime": "2026-09-14T17:00:00Z",
-        "description": "Opening round matches of the Guadalajara Open WTA 500 tournament."
-      },
-      {
-        "id": "davis-cup-group-stage-2026-day1",
-        "sport": "tennis",
-        "title": "Davis Cup Finals Group Stage - Day 1",
-        "competition": "ATP / International",
-        "location": "Bologna, Valencia, Zhuhai, and Manchester",
-        "datetime": "2026-09-15T13:00:00Z",
-        "description": "Group stage tie matches featuring national teams competing for a spot in the Davis Cup Knockout Stage."
-      },
-      {
-        "id": "atp-chengdu-2026-r1",
-        "sport": "tennis",
-        "title": "Chengdu Open - First Round",
-        "competition": "ATP 250",
-        "location": "Chengdu, China",
-        "datetime": "2026-09-16T05:00:00Z",
-        "description": "First round action at the ATP 250 Chengdu Open."
-      },
-      {
-        "id": "atp-hangzhou-2026-r1",
-        "sport": "tennis",
-        "title": "Hangzhou Open - First Round",
-        "competition": "ATP 250",
-        "location": "Hangzhou, China",
-        "datetime": "2026-09-16T06:00:00Z",
-        "description": "First round main draw matches at the Hangzhou Open ATP 250."
-      },
-      {
-        "id": "wta-seoul-2026-r1",
-        "sport": "tennis",
-        "title": "Korea Open - First Round",
-        "competition": "WTA 500",
-        "location": "Seoul, South Korea",
-        "datetime": "2026-09-17T03:00:00Z",
-        "description": "Main draw first round matches at the WTA 500 Korea Open in Seoul."
-      }
-    ],
-    "rugby": []
-  }
+  "sports": {},
+  "error": "Request failed with status code 429"
 }
