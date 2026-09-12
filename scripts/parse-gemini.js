@@ -1,25 +1,29 @@
-export function parseGemini(response) {
+export function parseGeminiResponse(response) {
 
     const text =
-        response?.candidates?.[0]?.content?.parts?.[0]?.text;
+        response
+            ?.candidates?.[0]
+            ?.content?.parts?.[0]
+            ?.text;
 
     if (!text) {
+
         return [];
     }
 
     try {
 
-        const cleaned = text
-            .replace(/```json/g, "")
-            .replace(/```/g, "")
-            .trim();
-
-        return JSON.parse(cleaned);
+        return JSON.parse(
+            text
+                .replace(/```json/g, "")
+                .replace(/```/g, "")
+                .trim()
+        );
 
     } catch (error) {
 
         console.error(
-            "Gemini JSON parsing failed"
+            "Failed to parse Gemini JSON"
         );
 
         return [];
