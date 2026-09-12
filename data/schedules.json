@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:50:33.580Z",
+  "generatedAt": "2026-09-12T13:06:40.147Z",
   "status": "live",
   "version": "7.2",
   "sources": {
@@ -14,100 +14,73 @@
     }
   },
   "sports": {
-    "f1": [
-      {
-        "id": "f1-2026-azerbaijan-race",
-        "sport": "f1",
-        "title": "Azerbaijan Grand Prix - Race",
-        "competition": "Formula 1 World Championship 2026",
-        "location": "Baku City Circuit, Baku, Azerbaijan",
-        "datetime": "2026-09-13T11:00:00Z",
-        "description": "Main race for the 2026 Azerbaijan Grand Prix."
-      },
-      {
-        "id": "f1-2026-singapore-fp1",
-        "sport": "f1",
-        "title": "Singapore Grand Prix - Practice 1",
-        "competition": "Formula 1 World Championship 2026",
-        "location": "Marina Bay Street Circuit, Singapore",
-        "datetime": "2026-09-18T09:30:00Z",
-        "description": "First free practice session for the 2026 Singapore Grand Prix."
-      },
-      {
-        "id": "f1-2026-singapore-fp2",
-        "sport": "f1",
-        "title": "Singapore Grand Prix - Practice 2",
-        "competition": "Formula 1 World Championship 2026",
-        "location": "Marina Bay Street Circuit, Singapore",
-        "datetime": "2026-09-18T13:00:00Z",
-        "description": "Second free practice session for the 2026 Singapore Grand Prix."
-      },
-      {
-        "id": "f1-2026-singapore-fp3",
-        "sport": "f1",
-        "title": "Singapore Grand Prix - Practice 3",
-        "competition": "Formula 1 World Championship 2026",
-        "location": "Marina Bay Street Circuit, Singapore",
-        "datetime": "2026-09-19T09:30:00Z",
-        "description": "Third free practice session for the 2026 Singapore Grand Prix."
-      }
-    ],
+    "f1": [],
     "tennis": [
       {
-        "id": "tennis-us-open-2026-mens-final",
+        "id": "us-open-2026-womens-final",
         "sport": "tennis",
-        "title": "US Open - Men's Singles Final",
-        "competition": "Grand Slam",
-        "location": "New York, USA",
-        "datetime": "2026-09-13T20:00:00Z",
-        "description": "The culmination of the 2026 US Open championship at Arthur Ashe Stadium."
+        "title": "US Open Women's Singles Final",
+        "competition": "US Open (Grand Slam)",
+        "location": "Arthur Ashe Stadium, New York, USA",
+        "datetime": "2026-09-12T20:00:00Z",
+        "description": "The women's singles championship match at the 2026 US Open Grand Slam tournament."
       },
       {
-        "id": "wta-guadalajara-open-2026",
+        "id": "us-open-2026-mens-final",
+        "sport": "tennis",
+        "title": "US Open Men's Singles Final",
+        "competition": "US Open (Grand Slam)",
+        "location": "Arthur Ashe Stadium, New York, USA",
+        "datetime": "2026-09-13T20:00:00Z",
+        "description": "The men's singles championship match concluding the final Grand Slam of the 2026 season."
+      },
+      {
+        "id": "davis-cup-finals-group-stage-2026",
+        "sport": "tennis",
+        "title": "Davis Cup Finals Group Stage",
+        "competition": "Davis Cup (ATP)",
+        "location": "Bologna, Valencia, Zhuhai, and Manchester",
+        "datetime": "2026-09-15T10:00:00Z",
+        "description": "16 national teams compete across four international host cities to qualify for the Davis Cup Knockout Stage."
+      },
+      {
+        "id": "guadalajara-open-2026",
         "sport": "tennis",
         "title": "Guadalajara Open Akron",
         "competition": "WTA 500",
         "location": "Guadalajara, Mexico",
         "datetime": "2026-09-14T16:00:00Z",
-        "description": "WTA 500 hard-court tournament taking place at the Panamerican Tennis Center."
+        "description": "WTA 500 hard-court event featuring leading players on the WTA Tour."
       },
       {
-        "id": "wta-jasmin-open-2026",
+        "id": "jasmin-open-2026",
         "sport": "tennis",
         "title": "Jasmin Open Tunisia",
         "competition": "WTA 250",
         "location": "Monastir, Tunisia",
-        "datetime": "2026-09-14T10:00:00Z",
-        "description": "WTA 250 hard-court tournament held at the Tennis Club de Monastir."
+        "datetime": "2026-09-14T11:00:00Z",
+        "description": "WTA 250 outdoor hard-court tournament taking place in Monastir."
       },
       {
-        "id": "tennis-davis-cup-group-stage-2026",
-        "sport": "tennis",
-        "title": "Davis Cup Finals - Group Stage",
-        "competition": "Davis Cup",
-        "location": "Bologna, Valencia, Zhuhai, Manchester",
-        "datetime": "2026-09-15T09:00:00Z",
-        "description": "International men's team competition group stage matches held across four host cities."
-      },
-      {
-        "id": "atp-chengdu-open-2026",
+        "id": "chengdu-open-2026",
         "sport": "tennis",
         "title": "Chengdu Open",
         "competition": "ATP 250",
         "location": "Chengdu, China",
-        "datetime": "2026-09-16T05:00:00Z",
-        "description": "ATP 250 hard-court tournament held at the Sichuan International Tennis Center."
-      },
-      {
-        "id": "atp-hangzhou-open-2026",
-        "sport": "tennis",
-        "title": "Hangzhou Open",
-        "competition": "ATP 250",
-        "location": "Hangzhou, China",
-        "datetime": "2026-09-16T05:00:00Z",
-        "description": "ATP 250 hard-court tournament taking place at the Hangzhou Olympic Sports Center."
+        "datetime": "2026-09-17T05:00:00Z",
+        "description": "ATP 250 hard-court event launching the Asian hard-court swing."
       }
     ],
-    "rugby": []
+    "rugby": [
+      {
+        "id": "rugby-trc-2026-0919-nzl-aus",
+        "sport": "rugby",
+        "title": "New Zealand vs Australia",
+        "competition": "The Rugby Championship",
+        "location": "Auckland, New Zealand",
+        "datetime": "2026-09-19T07:05:00Z",
+        "description": "The Rugby Championship 2026 match and Bledisloe Cup fixture between New Zealand and Australia."
+      }
+    ]
   }
 }
