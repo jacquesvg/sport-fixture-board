@@ -1,4 +1,4 @@
-name: Update Schedules
+name: Update Fixtures
 on:
   workflow_dispatch:
   schedule:
@@ -13,4 +13,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: npm install
       - run: node scripts/build-json.js
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/schedules.json
+          git commit -m "Update schedules" || echo "No changes"
+          git push

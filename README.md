@@ -1,2 +1,5 @@
-# Fixture Board V6
-Automation-focused release with scraper pipeline architecture, cache support, logging structure and source failover framework.
+# Fixture Board V7
+Gemini-powered data collection architecture.
+
+Add GEMINI_API_KEY as a GitHub Actions secret.
+Run workflow_dispatch or scheduled job.
