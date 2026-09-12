@@ -1,1 +1,8 @@
-export function valid(event){return event?.title && event?.datetime && event?.sport;}
+export function validate(events) {
+
+    return events.filter(event =>
+        event.sport &&
+        event.title &&
+        event.datetime
+    );
+}
