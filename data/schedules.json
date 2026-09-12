@@ -1,1 +1,18 @@
-{}
+{
+  "generatedAt": "2026-09-12T12:10:39.093Z",
+  "status": "partial",
+  "version": "7",
+  "sources": {
+    "f1": {
+      "source": "gemini"
+    },
+    "tennis": {
+      "source": "gemini"
+    },
+    "rugby": {
+      "source": "gemini"
+    }
+  },
+  "sports": {},
+  "error": "Request failed with status code 404"
+}
