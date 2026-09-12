@@ -3,6 +3,7 @@ import fs from "fs";
 import { collectF1 } from "./collect-f1.js";
 import { collectTennis } from "./collect-tennis.js";
 import { collectRugby } from "./collect-rugby.js";
+import { parseGeminiResponse } from "./parse-gemini.js";
 
 const output = {
     generatedAt: new Date().toISOString(),
@@ -19,13 +20,20 @@ const output = {
 try {
 
     output.sports.f1 =
-        await collectF1();
+    parseGeminiResponse(
+        await collectF1()
+    );
 
-    output.sports.tennis =
-        await collectTennis();
+output.sports.tennis =
+    parseGeminiResponse(
+        await collectTennis()
+    );
 
-    output.sports.rugby =
-        await collectRugby();
+output.sports.rugby =
+    parseGeminiResponse(
+        await collectRugby()
+    );
+
 
 } catch (err) {
 
