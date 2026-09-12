@@ -1,5 +1,38 @@
-import {askGemini} from "./gemini.js";
-export async function collectTennis(){
- const prompt=`Find ATP, WTA and Grand Slam tennis events occurring in the next 7 days. Return ONLY valid JSON array. Fields: id,sport,title,competition,location,datetime,description. sport value must be tennis.`;
- return await askGemini(prompt);
+import { askGemini }
+from "./gemini.js";
+
+export async function collectTennis() {
+
+    const today =
+        new Date().toISOString();
+
+    const prompt = `
+Today's date is:
+
+${today}
+
+TASK
+
+Find ATP, WTA and Grand Slam
+events occurring during the NEXT 7 DAYS.
+
+DO NOT return historical events.
+
+Return ONLY JSON.
+
+[
+ {
+  "id":"",
+  "sport":"tennis",
+  "title":"",
+  "competition":"",
+  "location":"",
+  "datetime":"",
+  "description":""
+ }
+]
+`;
+
+    return await askGemini(prompt);
 }
+``

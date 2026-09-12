@@ -1,8 +1,19 @@
-export function validate(events) {
+export function validateEvents(events) {
 
-    return events.filter(event =>
-        event.sport &&
-        event.title &&
-        event.datetime
-    );
+    return events.filter(event => {
+
+        return (
+
+            event.id &&
+            event.sport &&
+            event.title &&
+            event.competition &&
+            event.location &&
+            event.datetime &&
+            event.description
+
+        );
+
+    });
+
 }

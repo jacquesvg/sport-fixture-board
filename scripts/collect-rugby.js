@@ -1,5 +1,37 @@
-import {askGemini} from "./gemini.js";
-export async function collectRugby(){
- const prompt=`Find international rugby union fixtures occurring in the next 7 days. Return ONLY valid JSON array. Fields: id,sport,title,competition,location,datetime,description. sport value must be rugby.`;
- return await askGemini(prompt);
+import { askGemini }
+from "./gemini.js";
+
+export async function collectRugby() {
+
+    const today =
+        new Date().toISOString();
+
+    const prompt = `
+Today's date is:
+
+${today}
+
+TASK
+
+Find international rugby union
+fixtures occurring during the NEXT 7 DAYS.
+
+DO NOT return historical events.
+
+Return ONLY JSON.
+
+[
+ {
+  "id":"",
+  "sport":"rugby",
+  "title":"",
+  "competition":"",
+  "location":"",
+  "datetime":"",
+  "description":""
+ }
+]
+`;
+
+    return await askGemini(prompt);
 }

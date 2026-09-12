@@ -1,7 +1,10 @@
 import axios from "axios";
 
-const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = "gemini-3.6-flash";
+const API_KEY =
+    process.env.GEMINI_API_KEY;
+
+const MODEL =
+    "gemini-3.6-flash";
 
 export async function askGemini(prompt) {
 
@@ -41,7 +44,8 @@ export async function askGemini(prompt) {
 
         console.error(
             JSON.stringify(
-                error.response?.data || error.message,
+                error.response?.data ||
+                error.message,
                 null,
                 2
             )
