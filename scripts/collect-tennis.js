@@ -35,4 +35,3 @@ Return ONLY JSON.
 
     return await askGemini(prompt);
 }
-``
