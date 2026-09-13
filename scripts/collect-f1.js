@@ -7,16 +7,18 @@ export async function collectF1() {
         new Date().toISOString();
 
 const prompt = `
-Today's date is:
+Today's date is ${new Date().toISOString()}.
 
-${today}
+You are a Formula 1 fixture researcher.
 
-TASK
+CRITICAL:
 
-Find ALL Formula 1 sessions scheduled
-between TODAY and the next 7 calendar days.
+First determine the current Formula 1 race weekend.
 
-You MUST include:
+Then return ALL Formula 1 sessions taking place
+between today and the next 7 days.
+
+Include:
 
 - Practice 1
 - Practice 2
@@ -26,24 +28,25 @@ You MUST include:
 - Qualifying
 - Race
 
-Only return events occurring
-within the next 7 days.
+Do not skip the current race weekend.
 
-Do NOT return historical events.
+Do not return historical sessions.
 
-Return ONLY valid JSON.
+Do not return estimated events.
 
-Schema:
+Return ONLY confirmed fixtures.
+
+Return ONLY JSON.
 
 [
   {
-    "id": "",
-    "sport": "f1",
-    "title": "",
-    "competition": "",
-    "location": "",
-    "datetime": "",
-    "description": ""
+    "id":"",
+    "sport":"f1",
+    "title":"",
+    "competition":"",
+    "location":"",
+    "datetime":"",
+    "description":""
   }
 ]
 `;

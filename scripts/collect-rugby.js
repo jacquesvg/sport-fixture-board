@@ -7,50 +7,45 @@ export async function collectRugby() {
     new Date().toISOString();
 
 const prompt = `
-Today's date is:
+Today's date is ${new Date().toISOString()}.
 
-${today}
+You are a rugby union fixture researcher.
 
-TASK
+CRITICAL:
 
-Find ALL rugby union fixtures that are scheduled
-between TODAY and the next 7 calendar days.
+List EVERY rugby union fixture taking place today
+or during the next 7 calendar days.
 
-You MUST include fixtures from:
+Search for fixtures from:
 
 - Rugby Championship
-- Six Nations
-- Autumn Nations Series
+- International Tests
 - Summer Internationals
-- World Rugby competitions
+- Autumn Nations Series
 - Pacific Nations Cup
 - Rugby Europe Championship
+- World Rugby fixtures
 - Test Matches
-- International Fixtures
 
-IMPORTANT
+If fixtures occur today, they MUST be included.
 
-Only return matches scheduled within the next 7 days.
+Do not return historical matches.
 
-Do NOT return historical fixtures.
+Do not return estimates.
 
-Do NOT return matches outside the next 7 days.
-
-If no fixtures exist, return an empty JSON array.
+Return ONLY confirmed future fixtures.
 
 Return ONLY valid JSON.
 
-Schema:
-
 [
   {
-    "id": "",
-    "sport": "rugby",
-    "title": "",
-    "competition": "",
-    "location": "",
-    "datetime": "",
-    "description": ""
+    "id":"",
+    "sport":"rugby",
+    "title":"",
+    "competition":"",
+    "location":"",
+    "datetime":"",
+    "description":""
   }
 ]
 `;
