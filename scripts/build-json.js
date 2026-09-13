@@ -53,8 +53,13 @@ const output = {
 
 try {
 
-    const f1Raw =
-        await collectF1();
+    
+        const f1Raw = await collectF1();
+
+console.log(
+    "RAW F1:",
+    JSON.stringify(f1Raw, null, 2)
+);
 
     const tennisRaw =
         await collectTennis();

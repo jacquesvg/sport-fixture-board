@@ -6,17 +6,23 @@ export async function collectF1() {
     const today =
         new Date().toISOString();
 
+const today = new Date().toISOString();
+
 const prompt = `
-Today's date is ${new Date().toISOString()}.
+Today's date is:
 
-You are a Formula 1 fixture researcher.
+${today}
 
-CRITICAL:
+You are a Formula 1 scheduling assistant.
 
-First determine the current Formula 1 race weekend.
+STEP 1
 
-Then return ALL Formula 1 sessions taking place
-between today and the next 7 days.
+Identify the CURRENT Formula 1 race weekend.
+
+STEP 2
+
+Return ALL Formula 1 sessions taking place
+between today and the next 7 calendar days.
 
 Include:
 
@@ -28,15 +34,16 @@ Include:
 - Qualifying
 - Race
 
-Do not skip the current race weekend.
+CRITICAL RULES
 
-Do not return historical sessions.
+- Include the current race weekend if one is in progress.
+- Include sessions happening today.
+- Include sessions happening tomorrow.
+- Do not skip race events.
+- Do not return sessions outside the next 7 days.
+- Do not return historical sessions.
 
-Do not return estimated events.
-
-Return ONLY confirmed fixtures.
-
-Return ONLY JSON.
+Return ONLY valid JSON.
 
 [
   {
