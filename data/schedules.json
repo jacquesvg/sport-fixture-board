@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:25:47.547Z",
+  "generatedAt": "2026-09-13T08:33:11.166Z",
   "status": "live",
   "version": "7.2",
   "sources": {
@@ -16,51 +16,51 @@
   "sports": {
     "f1": [
       {
-        "id": "f1-2026-azerbaijan-fp1",
+        "id": "f1-2026-baku-fp1",
         "sport": "f1",
         "title": "Azerbaijan Grand Prix - Practice 1",
-        "competition": "Formula 1 World Championship",
+        "competition": "Formula 1 World Championship 2026",
         "location": "Baku City Circuit, Baku, Azerbaijan",
         "datetime": "2026-09-18T09:30:00Z",
         "description": "First free practice session for the 2026 Azerbaijan Grand Prix."
       },
       {
-        "id": "f1-2026-azerbaijan-fp2",
+        "id": "f1-2026-baku-fp2",
         "sport": "f1",
         "title": "Azerbaijan Grand Prix - Practice 2",
-        "competition": "Formula 1 World Championship",
+        "competition": "Formula 1 World Championship 2026",
         "location": "Baku City Circuit, Baku, Azerbaijan",
         "datetime": "2026-09-18T13:00:00Z",
         "description": "Second free practice session for the 2026 Azerbaijan Grand Prix."
       },
       {
-        "id": "f1-2026-azerbaijan-fp3",
+        "id": "f1-2026-baku-fp3",
         "sport": "f1",
         "title": "Azerbaijan Grand Prix - Practice 3",
-        "competition": "Formula 1 World Championship",
+        "competition": "Formula 1 World Championship 2026",
         "location": "Baku City Circuit, Baku, Azerbaijan",
         "datetime": "2026-09-19T08:30:00Z",
         "description": "Third free practice session for the 2026 Azerbaijan Grand Prix."
       },
       {
-        "id": "f1-2026-azerbaijan-qualifying",
+        "id": "f1-2026-baku-qualifying",
         "sport": "f1",
         "title": "Azerbaijan Grand Prix - Qualifying",
-        "competition": "Formula 1 World Championship",
+        "competition": "Formula 1 World Championship 2026",
         "location": "Baku City Circuit, Baku, Azerbaijan",
         "datetime": "2026-09-19T12:00:00Z",
-        "description": "Qualifying session to determine grid positions for the 2026 Azerbaijan Grand Prix."
+        "description": "Qualifying session to determine the starting grid for the 2026 Azerbaijan Grand Prix."
       }
     ],
     "tennis": [
       {
-        "id": "wta-guadalajara-open-2026",
+        "id": "wta-korea-open-2026",
         "sport": "tennis",
-        "title": "Guadalajara Open Akron",
+        "title": "Korea Open",
         "competition": "WTA 500",
-        "location": "Guadalajara, Mexico",
-        "datetime": "2026-09-14T17:00:00Z",
-        "description": "WTA 500 hard-court tournament taking place at the Panamerican Tennis Center in Guadalajara."
+        "location": "Seoul, South Korea",
+        "datetime": "2026-09-14T03:00:00Z",
+        "description": "WTA 500 hard-court tournament held at the Olympic Park Tennis Center in Seoul."
       },
       {
         "id": "wta-jasmin-open-2026",
@@ -68,17 +68,17 @@
         "title": "Jasmin Open Monastir",
         "competition": "WTA 250",
         "location": "Monastir, Tunisia",
-        "datetime": "2026-09-14T10:00:00Z",
-        "description": "WTA 250 outdoor hard-court tournament held at the Tennis Club de Monastir."
+        "datetime": "2026-09-14T09:00:00Z",
+        "description": "WTA 250 outdoor hard-court tournament in Monastir, Tunisia."
       },
       {
-        "id": "davis-cup-finals-group-stage-2026",
+        "id": "davis-cup-group-stage-2026",
         "sport": "tennis",
         "title": "Davis Cup Finals Group Stage",
         "competition": "Davis Cup",
         "location": "Bologna, Manchester, Valencia, Zhuhai",
-        "datetime": "2026-09-15T09:00:00Z",
-        "description": "Group stage ties featuring 16 national teams competing across four host cities for places in the Davis Cup Final 8."
+        "datetime": "2026-09-15T12:00:00Z",
+        "description": "Men's national team tennis tournament group stage taking place across four international host cities."
       },
       {
         "id": "atp-chengdu-open-2026",
@@ -87,7 +87,7 @@
         "competition": "ATP 250",
         "location": "Chengdu, China",
         "datetime": "2026-09-16T02:00:00Z",
-        "description": "ATP 250 hard-court tournament held at the Sichuan International Tennis Centre."
+        "description": "ATP 250 outdoor hard-court tournament held at the Sichuan International Tennis Center."
       },
       {
         "id": "atp-hangzhou-open-2026",
@@ -96,7 +96,7 @@
         "competition": "ATP 250",
         "location": "Hangzhou, China",
         "datetime": "2026-09-16T03:00:00Z",
-        "description": "ATP 250 hard-court tournament taking place at the Hangzhou Olympic Sports Center."
+        "description": "ATP 250 hard-court tennis event hosted at the Hangzhou Olympic Sports Center."
       }
     ],
     "rugby": []
